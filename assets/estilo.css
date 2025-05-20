@@ -1,0 +1,80 @@
+*, ::before, :after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7ef;
+}
+
+
+
+*{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.duration-300 {
+  transition-duration: .3s;
+} 
+
+ul{
+  gap: 30px;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.body {
+  margin: 0;
+  line-height: inherit;
+}
+
+.py-4 {
+  padding: 50px;
+  padding-bottom: 15px;
+}
+
+
+.fadeIn animation {
+  transform: translate(0px);
+  opacity: 1;
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s ;
+}
+
+@media (min-width: 768px) {
+  .md\:text-2xl {
+    font-size: 26px;
+    line-height: 30px;
+  }
+}
+
+.hola{
+  background-color: #29212b;
+  padding: 0 60px 0 60px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  color: white;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

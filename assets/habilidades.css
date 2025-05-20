@@ -1,0 +1,20 @@
+*{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+.parent {
+    display: grid;
+    place-items: center;
+}
+
+.alinear {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ind {
+    margin-left: 250px;
+}
