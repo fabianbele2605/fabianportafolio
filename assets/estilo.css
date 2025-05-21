@@ -5,8 +5,6 @@
   border-color: #e5e7ef;
 }
 
-
-
 *{
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
@@ -109,7 +107,7 @@ footer img {
 }
 
 footer .ubica {
-  padding: 0 40px;
+  padding: 0 0px;
 }
 
 #ubicacion iframe {
@@ -133,5 +131,5 @@ footer p {
 
 .made {
   background-color: aliceblue;
-  padding: 0 100px;
+  padding: 0 80px;
 }
