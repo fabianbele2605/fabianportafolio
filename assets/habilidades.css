@@ -3,6 +3,11 @@
     font-optical-sizing: auto;
   }
 
+body {
+    display: block;
+    background-color: whitesmoke;
+}
+
 .parent {
     display: grid;
     place-items: center;
@@ -21,4 +26,16 @@
 
 p {
     font-size: 30px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
 }
