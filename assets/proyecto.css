@@ -3,15 +3,33 @@
     font-optical-sizing: auto;
   }
 
-body main {
-    color: black;
+body {
+    background: rgb(10, 10, 10);
 }
+
+h1 {
+    color: rgb(238, 236, 236);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+section h2 {
+    margin-left: 10px;
+}
+
 
 section {
     max-width: 200px;
     margin: 0%;
     padding: 40px 20px;
-    background-color: white;
+    background-color: rgb(226, 225, 225);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -24,4 +42,10 @@ img {
 img .link {
     width: 10px;
     height: 1px;
+}
+
+
+.portada {
+    height: 200px;
+    width: 200px;
 }
